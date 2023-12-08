@@ -1,4 +1,4 @@
-package com.chaffai.calculator;
+package com.kamal.calculator;
 import org.springframework.stereotype.Service;
 @Service
 public class Calculator {
