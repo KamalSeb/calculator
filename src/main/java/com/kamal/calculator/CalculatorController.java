@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 class CalculatorController {
 @Autowired
-private calculator calculator;
+private Calculator calculator;
 @RequestMapping("/sum")
 String sum(@RequestParam("a") Integer a,
 @RequestParam("b") Integer b) {
