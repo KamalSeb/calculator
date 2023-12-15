@@ -32,5 +32,10 @@ reportName: "Checkstyle Report"
 ])
 }
 }
+stage("Declarative : Post Actions") {
+steps {
+sh "./gradlew test"
+}
+}
 }
 }
